@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet"
+        href="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- spinner -->
+    <div id="loading">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!-- Nav Bar -->
+    <header class="start" id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light startNav">
+                <a class="navbar-brand" href="#"><img src="./IMG/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end of header (nav bar) -->
+
+    <div class="sideBar clearfix">
+        <div class="color-box">
+            <h5>choose your color</h5>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+        </div>
+        <i class="fa fa-cog" id="sidebarToggle"></i>
+    </div>
+    <!-- Shop: Electronic -->
+
+    <section class="shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text">
+                        <h1>Shop: Electronic</h1>
+                        <p>From year to year we strive to invent the most innovative technology<br>that is used by both
+                            small enterprises and space enterprises.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Browse by category -->
+
+    <section class="browse">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text">
+                        <h2>Browse by category</h2>
+                        <p>All the smart devices, electronics or software you need are ready to be discovered. Let’s go!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="btns">
+                        <button class="bg-light">Browse All<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row cards">
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/pc.svg" alt="">
+                        <div class="text1">
+                            <h4>Desktop PC</h4>
+                            <span>1253 products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/headphone.svg" alt="">
+                        <div class="text1">
+                            <h4>Headphone</h4>
+                            <span>453 products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/laptop.svg" alt="">
+                        <div class="text1">
+                            <h4>laptop</h4>
+                            <span>7653 products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/mobile.svg" alt="">
+                        <div class="text1">
+                            <h4>Mobile Phone</h4>
+                            <span>1253 products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/printer.svg" alt="">
+                        <div class="text1">
+                            <h4>Printer</h4>
+                            <span>7253 products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/book.svg" alt="">
+                        <div class="text1">
+                            <h4>Books</h4>
+                            <span>1253 products</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row cards">
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/tablet.svg" alt="">
+                        <div class="text1">
+                            <h4>Tablet</h4>
+                            <span>3253 products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/usb.svg" alt="">
+                        <div class="text1">
+                            <h4>USB Flash</h4>
+                            <span>4253 products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/mouse.svg" alt="">
+                        <div class="text1">
+                            <h4>Game Mouse</h4>
+                            <span>653 products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/security.svg" alt="">
+                        <div class="text1">
+                            <h4>Security</h4>
+                            <span>453 products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/watch.svg" alt="">
+                        <div class="text1">
+                            <h4>Watch</h4>
+                            <span>1353 products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card">
+                        <img src="./IMG/scan.svg" alt="">
+                        <div class="text1">
+                            <h4>Scanner</h4>
+                            <span>253 products</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest products -->
+
+
+    <section class="featured latest">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-9">
+                    <div class="text">
+                        <h2>Latest products</h2>
+                        <p>Don’t miss world trending</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row imgScroll">
+                <div class="col-lg-12">
+                    <div id="owl-demo" class="owl-carousel owl-theme">
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp5.png" alt="">
+                            <div class="text">
+                                <span>sony</span>
+                                <h5>4K TV Game Mini Arcade Rocker Console 32GB/64GB</h5>
+                                <span class="para">$22.51</span>
+                                <del>29.5</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp6.png" alt="">
+                            <div class="text">
+                                <span>Apple</span>
+                                <h5>T500BT Original Wireless Bluetooth Headphone Deep Bass</h5>
+                                <span class="para">$126</span>
+                                <del>$96.5</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp7.png" alt="">
+                            <div class="text">
+                                <span>Toshiba</span>
+                                <h5>Black Walnut Wood &amp; Aluminum Headphone Stand</h5>
+                                <span class="para">$25.6</span>
+                                <del>$32.2</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp8.png" alt="">
+                            <div class="text">
+                                <span>BassX</span>
+                                <h5>Beats Studio3 Wireless Bluetooth Headphones</h5>
+                                <span class="para">$18.5</span>
+                                <del>$22.6</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--  -->
+
+            <div class="row imgScroll">
+                <div class="col-lg-12">
+                    <div id="owl-demo2" class="owl-carousel owl-theme">
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp9.png" alt="">
+                            <div class="text">
+                                <span>Konika</span>
+                                <h5>Marshall MAJOR III Wireless Folding Bluetooth</h5>
+                                <span class="para">$28.2</span>
+                                <del>$33.7</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp10.png" alt="">
+                            <div class="text">
+                                <span>Samsung</span>
+                                <h5>BT918 ANC 35dB Hybrid Active Noise Cancelling</h5>
+                                <span class="para">$125</span>
+                                <del>$129.8</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp11.png" alt="">
+                            <div class="text">
+                                <span>Google</span>
+                                <h5>Cancelling Headset Music Sport Deep Bass</h5>
+                                <span class="para">$23.5</span>
+                                <del>$29.8</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp4.png" alt="">
+                            <div class="text">
+                                <span>Huawei</span>
+                                <h5>AirPods 2 Pro 3 Wireless Headphone Bluetooth</h5>
+                                <span class="para">$15.51</span>
+                                <del>$29.8</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--  -->
+
+            <div class="row imgScroll">
+                <div class="col-lg-12">
+                    <div id="owl-demo3" class="owl-carousel owl-theme">
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp7.png" alt="">
+                            <div class="text">
+                                <span>Nikon</span>
+                                <h5>Outdoor Waterproof Loudspeaker Stereo Surround Support</h5>
+                                <span class="para">$21.55</span>
+                                <del>$29.8</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp10.png" alt="">
+                            <div class="text">
+                                <span>Alaex</span>
+                                <h5>uisine Smoking Gun Meat Burn Smokehouse</h5>
+                                <span class="para">$56.4</span>
+                                <del>$56.8</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp6.png" alt="">
+                            <div class="text">
+                                <span>XiaoMi</span>
+                                <h5>Walnut Gaming Headset Holder with Solid Metal</h5>
+                                <span class="para">$34.3</span>
+                                <del>$36.5</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+
+                        <div class="tecket">
+                            <div class="icon">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-eye"></i></li>
+                            </div>
+                            <img src="./IMG/sp11.png" alt="">
+                            <div class="text">
+                                <span>Lenovo</span>
+                                <h5>Headphones Surround 3D Deep Bass Sport Gaming</h5>
+                                <span class="para">$25.6</span>
+                                <del>$29.8</del>
+                                <a href="" class="btn btn-info addProduct">Add +</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Viewed products -->
+
+    <section class="souq viewed">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text">
+                        <h2>Viewed products</h2>
+                        <p>Take it to your cart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row cardTop">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card cards">
+                        <img src="./IMG/sp1.png" alt="...">
+                        <div class="card-body">
+                            <h3>Bass ultra x-203. Head phone</h3>
+                            <span>$29.2</span>
+                            <del>$32.8</del>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card cards">
+                        <img src="./IMG/sp2.png" alt="...">
+                        <div class="card-body">
+                            <h3>Boxie by Dro C 3450. Active Noise</h3>
+                            <span>$35.6</span>
+                            <del>$36.4</del>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card cards">
+                        <img src="./IMG/sp3.png" alt="...">
+                        <div class="card-body">
+                            <h3>Sony DSC H300 - 20.1 Megapixel</h3>
+                            <span>$17.3</span>
+                            <del>$18.5</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row cardTop">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card cards">
+                        <img src="./IMG/sp4.png" alt="...">
+                        <div class="card-body">
+                            <h3>Bass ultra x-203. Head phone</h3>
+                            <span>$29.2</span>
+                            <del>$32.8</del>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card cards">
+                        <img src="./IMG/sp5.png" alt="...">
+                        <div class="card-body">
+                            <h3>Boxie by Dro C 3450. Active Noise</h3>
+                            <span>$35.6</span>
+                            <del>$36.4</del>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card cards">
+                        <img src="./IMG/sp6.png" alt="...">
+                        <div class="card-body">
+                            <h3>Sony DSC H300 - 20.1 Megapixel</h3>
+                            <span>$17.3</span>
+                            <del>$18.5</del>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's new blog event -->
+
+    <section class="event">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text">
+                        <h2>What's new</h2>
+                        <p>From Our blog and Event fanpage</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row cards">
+                <div class="col-lg-4">
+                    <div class="parent">
+                        <div class="child">
+                            <div class="layer"></div>
+                            <img src="./IMG/img.png" alt="">
+                        </div>
+                        <div class="text1">
+                            <h4>We can blend colors multiple ways, the most common</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aperiam ducimus,
+                                distinctio suscipit reprehenderit vel placeat rerum hic est, facere debitis. Fugit
+                                ratione cupiditate provident laborum. Excepturi cumque consequuntur modi.</p>
+                        </div>
+                        <div class="media">
+                            <img src="./IMG/user-1.png" alt="">
+                            <div class="text2">
+                                <h5>Jenny Wilson</h5>
+                                <span>August 25, 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="parent">
+                        <div class="child">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-2 (1).png" alt="">
+                        </div>
+                        <div class="text1">
+                            <h4>We can blend colors multiple ways, the most common</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aperiam ducimus,
+                                distinctio suscipit reprehenderit vel placeat rerum hic est, facere debitis. Fugit
+                                ratione cupiditate provident laborum. Excepturi cumque consequuntur modi.</p>
+                        </div>
+                        <div class="media">
+                            <img src="./IMG/user-2 (1).png" alt="">
+                            <div class="text2">
+                                <h5>Jenny Wilson</h5>
+                                <span>August 25, 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="studio">
+                        <div class="over">
+                            <h4>Design Studios That Everyone Should Know About?</h4>
+                            <div class="media">
+                                <img src="./IMG/user-2 (1).png" alt="">
+                                <div class="text2">
+                                    <h5>Jenny Wilson</h5>
+                                    <span>August 25, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-3 (1).png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="studio">
+                        <div class="over">
+                            <h4>Design Studios That Everyone Should Know About?</h4>
+                            <div class="media">
+                                <img src="./IMG/user-2 (1).png" alt="">
+                                <div class="text2">
+                                    <h5>Jenny Wilson</h5>
+                                    <span>August 25, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-4.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="studio">
+                        <div class="over">
+                            <h4>Design Studios That Everyone Should Know About?</h4>
+                            <div class="media">
+                                <img src="./IMG/user-2 (1).png" alt="">
+                                <div class="text2">
+                                    <h5>Jenny Wilson</h5>
+                                    <span>August 25, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-5.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="studio">
+                        <div class="over">
+                            <h4>Design Studios That Everyone Should Know About?</h4>
+                            <div class="media">
+                                <img src="./IMG/user-2 (1).png" alt="">
+                                <div class="text2">
+                                    <h5>Jenny Wilson</h5>
+                                    <span>August 25, 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-6.png" alt="">
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- You can order on App and play store -->
+    <section class="bring order2">
+        <div class="container app">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="parent">
+                        <div class="child">
+                            <div class="text">
+                                <h2>You can order on<br>App and play store</h2>
+                                <p>Bring the world of shopping to your phone</p>
+                            </div>
+                            <div class="photo1">
+                                <img src="./IMG/safety.png" alt="">
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="photo">
+                                <img src="./IMG/apple-button.svg" alt="">
+                                <img src="./IMG/google-play.svg" alt="" class="image">
+                            </div>
+                            <div class="photo2">
+                                <img src="./IMG/chart.png" alt="">
+                            </div>
+                        </div>
+                        <div class="check">
+                            <p><input type="checkbox" class="box">Order direct from the app</p>
+                            <p class="order"><input type="checkbox" class="box">Save and searches</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="end">
+        <div class="container">
+            <div class="row agon">
+                <div class="col-lg-7">
+                    <img src="./IMG/logo.svg" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <div class="text">
+                        <p>Ready to get started?</p>
+                        <button class="btns">Create an Acount</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row allrow">
+                <div class="col-lg-3">
+                    <div class="doc">
+                        <h5>Contact</h5>
+                        <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+                        <p>(239) 555-0108 contact@agon.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="doc">
+                        <h5>About Us</h5>
+                        <li>Mission & Vision</li>
+                        <li>Our Team</li>
+                        <li>Careers</li>
+                        <li>Press & Media</li>
+                        <li>Advertising</li>
+                        <li>Testimonial</li>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="doc">
+                        <h5>Discover</h5>
+                        <li>Our Blog</li>
+                        <li>Plans Pricing</li>
+                        <li>Knowlage Base</li>
+                        <li>Cookie Policy</li>
+                        <li>Office Center</li>
+                        <li>News Event</li>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="doc">
+                        <h5>Support</h5>
+                        <li>FAQs</li>
+                        <li>Editor Help</li>
+                        <li>Community</li>
+                        <li>Live Chating</li>
+                        <li>Contact Us</li>
+                        <li>Support Center</li>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="doc">
+                        <h5>Useful Links</h5>
+                        <li>Request an offer</li>
+                        <li>How it works</li>
+                        <li>Pricing</li>
+                        <li>Reviews </li>
+                        <li>Stories</li>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row finish">
+                <div class="col-lg-6">
+                    <div class="link">
+                        <span>© Agon Official 2022 <br>Service</span>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Cookies</a>
+                        <a href="">Terms of</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.carousel.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet"
+        href="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div id="loading">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!-- Nav Bar -->
+    <header class="start" id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light startNav">
+                <a class="navbar-brand" href="#"><img src="./IMG/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- end of header (nav bar) -->
+
+    <div class="sideBar clearfix">
+        <div class="color-box">
+            <h5>choose your color</h5>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+        </div>
+        <i class="fa fa-cog" id="sidebarToggle"></i>
+    </div>
+    <!--  -->
+
+    <div id="lightbox-container">
+        <div id="lightboxitem">
+            <i class="fa-solid fa-circle-arrow-left left" id="prevBtn"></i>
+            <i class="fa-solid fa-xmark-circle close" id="closeBtn"></i>
+            <i class="fa-solid fa-circle-arrow-right right" id="nextBtn"></i>
+        </div>
+    </div>
+
+    <!-- Start Your Dream Business Today -->
+
+    <section class="dreamBusiness bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text">
+                        <span>What We Do, What You Get</span>
+                        <h1>Start Your Dream Business Today</h1>
+                        <p>Integrated workflow designed for product teams. We create world-class development and
+                            branding</p>
+                    </div>
+                    <div class="btns">
+                        <button class="btn1">Join Our Team <i class="fa-solid fa-arrow-right"></i></button>
+                        <button class="btn2">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="photo">
+                        <img src="./IMG/banner (1).png" alt="">
+                    </div>
+                    <div class="cards project">
+                        <img src="./IMG/icon-project-done.svg" alt="">
+                        <div class="number">
+                            <h2>+12k</h2>
+                            <span>Projects done</span>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="./IMG/icon-officer.svg" alt="">
+                        <div class="number">
+                            <h2>+28k</h2>
+                            <span>Offices / Factories</span>
+                        </div>
+                    </div>
+                    <div class="cards constant">
+                        <img src="./IMG/icon-constant.svg" alt="">
+                        <div class="number">
+                            <h2>+15k</h2>
+                            <span>Constant clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Elevate your Employee Development Journey -->
+
+    <section class="borders">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-12">
+                    <div class="text">
+                        <span>How It Work ?</span>
+                        <h2>Elevate your Employee<br>Development Journey</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row cross">
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card college arrows">
+                        <img src="./IMG/icon-start-plan.svg" alt="">
+                        <div class="card-body text2">
+                            <h5>Start Plan</h5>
+                            <p>Choose any of<br>our packages</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 uparrow">
+                    <div class="card college connect">
+                        <img src="./IMG/icon-connect.svg" alt="">
+                        <div class="card-body text2">
+                            <h5>Connect</h5>
+                            <p>Receive concepts<br>In 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card college">
+                        <img src="./IMG/icon-match.svg" alt="">
+                        <div class="card-body text2">
+                            <h5>Match</h5>
+                            <p>Development<br>Stage</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row cross crew">
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card college">
+                        <img src="./IMG/icon-complete.svg" alt="">
+                        <div class="card-body text2">
+                            <h5>Complete</h5>
+                            <p>After-release<br>Support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card college review">
+                        <img src="./IMG/icon-review.svg" alt="">
+                        <div class="card-body text2">
+                            <h5>Review</h5>
+                            <p>Project launch<br>and checkout</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our game-changing approach to working together -->
+
+    <section class="ourgame">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="images">
+                        <img src="./IMG/img-2.png" alt="">
+                        <img src="./IMG/img-3.png" alt="" class="photo">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="images2">
+                        <img src="./IMG/img-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text">
+                        <h2>Our game- <br> changing <br> approach to <br> working together</h2>
+                        <p>Check out stories from companies like Leroy Merlin and Decathlon to get inspired by how much
+                            you can gain.</p>
+                        <button>Keep Reading</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn about us -->
+
+    <section class="learn">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text">
+                        <h2>Learn about us</h2>
+                        <p>Know more about our potentiality</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="btns">
+                        <button>View More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row marketing">
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">COMPANY</span>
+                            <h5>We can blend colors multiple ways, the most common</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-1.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">MARKETING EVENT</span>
+                            <h5>How To Blow Through Capital At An Incredible Rate</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-2.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">CUSTOMER SERVICES</span>
+                            <h5>Design Studios That Everyone Should Know About?</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-3.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row marketing">
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">COMPANY</span>
+                            <h5>We can blend colors multiple ways, the most common</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-4.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">MARKETING EVENT</span>
+                            <h5>How To Blow Through Capital At An Incredible Rate</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-5.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">CUSTOMER SERVICES</span>
+                            <h5>Design Studios That Everyone Should Know About?</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-6.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently asked questions -->
+
+    <section class="frequently">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text">
+                        <h3>Frequently asked <br> questions</h3>
+                        <p>Feeling inquisitive? Have a read through some of our FAQs or <br> contact our supporters for
+                            help</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row allCard">
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="head">
+                            <i class="fa-solid fa-leaf"></i>
+                            <h5>People first</h5>
+                        </div>
+                        <div class="body">
+                            <p>The latest design trends meet hand-crafted templates.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="head">
+                            <i class="fa-solid fa-leaf"></i>
+                            <h5>Agile approach</h5>
+                        </div>
+                        <div class="body">
+                            <p>The latest design trends meet hand-crafted templates.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="head">
+                            <i class="fa-solid fa-leaf"></i>
+                            <h5>New mindset</h5>
+                        </div>
+                        <div class="body">
+                            <p>The latest design trends meet hand-crafted templates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button type="button">
+                                        Where is my order? Quisque molestie
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro
+                                    sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri
+                                    cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                                    Ex illum officiis id.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button type="button">
+                                        How can I return an item purchased online?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro
+                                    sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri
+                                    cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                                    Ex illum officiis id.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button type="button">
+                                        Can I cancel or change my order?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro
+                                    sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri
+                                    cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                                    Ex illum officiis id.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" data-toggle="collapse" data-target="#collapseThree1" aria-expanded="false"
+                            aria-controls="collapseThree1">
+                            <div class="card-header" id="headingThree1">
+                                <h2 class="mb-0">
+                                    <button type="button">
+                                        I have promotional or discount code?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree1" class="collapse" aria-labelledby="headingThree1"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro
+                                    sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri
+                                    cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                                    Ex illum officiis id.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false"
+                            aria-controls="collapseThree2">
+                            <div class="card-header" id="headingThree2">
+                                <h2 class="mb-0">
+                                    <button type="button">
+                                        What are the delivery types you use?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro
+                                    sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri
+                                    cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                                    Ex illum officiis id.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false"
+                            aria-controls="collapseThree3">
+                            <div class="card-header" id="headingThree3">
+                                <h2 class="mb-0">
+                                    <button type="button">
+                                        How can I pay for my purchases?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro
+                                    sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri
+                                    cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                                    Ex illum officiis id.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false"
+                            aria-controls="collapseThree4">
+                            <div class="card-header" id="headingThree4">
+                                <h2 class="mb-0">
+                                    <button type="button">
+                                        Can I cancel my order?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree4" class="collapse" aria-labelledby="headingThree4"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                    piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro
+                                    sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri
+                                    cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex.
+                                    Ex illum officiis id.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="btt">
+                        <button class="btn1">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+                        <button class="btn2">Support Center</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Have an prject in mind? -->
+
+    <section class="project bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text">
+                        <span>CONTACT US</span>
+                        <h2>Have an prject in mind?</h2>
+                        <p>The right move at the right time saves your investment.<br>live the dream of expanding your
+                            business.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="image">
+                        <img src="./IMG/download.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row contact">
+                <div class="col-lg-4">
+                    <div class="text1">
+                        <span><i class="fa-solid fa-house"></i>Agon Studio</span>
+                        <p>4517 Washington Ave.<br>Manchester,Kentucky 39495<br>(239) 555-0108<br>contact@agon.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="mail">
+                        <input type="name" placeholder="Enter your name">
+                        <input type="name" placeholder="Company (optional)">
+                    </div>
+                    <div class="mail">
+                        <input type="email" placeholder="Your email">
+                        <input type="text" placeholder="Phone number">
+                    </div>
+                    <div class="mail">
+                        <input type="text" placeholder="Tell us about yourself" class="news">
+                    </div>
+                    <div class="send">
+                        <button>Send Message<i class="fa-solid fa-arrow-right-long"></i></button>
+                        <p>By clicking contact us button, you agree our terms and policy,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Happy Customers -->
+
+    <section class="customers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="text">
+                        <h2>Our Happy Customers</h2>
+                        <p>Know about our clients, we are a woldwide corporate brand</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="icons">
+                        <li><i class="fa-solid fa-angle-left"></i></li>
+                        <li><i class="fa-solid fa-angle-right"></i></li>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="cards">
+                        <img src="./IMG/user-1.png" alt="">
+                        <div class="body">
+                            <div class="text">
+                                <h5>Wade Warren</h5>
+                                <span>Louis Viotten</span>
+                                <p>Even factoring differences in body weight between children and adults into account.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="cards">
+                        <img src="./IMG/user-2.png" alt="">
+                        <div class="body">
+                            <div class="text">
+                                <h5>Brooklyn Simmons</h5>
+                                <span>Nintendo</span>
+                                <p>So yes, the alcohol (ethanol) in hand sanitizers can be absorbed through the skin,
+                                    but no, it would not cause intoxication</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="cards">
+                        <img src="./IMG/user-3.png" alt="">
+                        <div class="body">
+                            <div class="text">
+                                <h5>Jenny Wilson</h5>
+                                <span>Starbucks</span>
+                                <p>Their blood alcohol levels rose to 0.007 to 0.02 o/oo (parts per thousand), or 0.7 to
+                                    2.0 mg/L</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="cards">
+                        <img src="./IMG/user-4.png" alt="">
+                        <div class="body">
+                            <div class="text">
+                                <h5>Albert Flores</h5>
+                                <span>Bank of America</span>
+                                <p>So yes, the alcohol (ethanol) in hand sanitizers can be absorbed through the skin,
+                                    but no, it would not cause intoxication</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="end">
+        <div class="container">
+            <div class="row agon">
+                <div class="col-lg-7">
+                    <img src="./IMG/logo.svg" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <div class="text">
+                        <p>Ready to get started?</p>
+                        <button class="btns">Create an Acount</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row allrow">
+                <div class="col-lg-3">
+                    <div class="doc">
+                        <h5>Contact</h5>
+                        <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+                        <p>(239) 555-0108 contact@agon.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="doc">
+                        <h5>About Us</h5>
+                        <li>Mission & Vision</li>
+                        <li>Our Team</li>
+                        <li>Careers</li>
+                        <li>Press & Media</li>
+                        <li>Advertising</li>
+                        <li>Testimonial</li>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="doc">
+                        <h5>Discover</h5>
+                        <li>Our Blog</li>
+                        <li>Plans Pricing</li>
+                        <li>Knowlage Base</li>
+                        <li>Cookie Policy</li>
+                        <li>Office Center</li>
+                        <li>News Event</li>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="doc">
+                        <h5>Support</h5>
+                        <li>FAQs</li>
+                        <li>Editor Help</li>
+                        <li>Community</li>
+                        <li>Live Chating</li>
+                        <li>Contact Us</li>
+                        <li>Support Center</li>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="doc">
+                        <h5>Useful Links</h5>
+                        <li>Request an offer</li>
+                        <li>How it works</li>
+                        <li>Pricing</li>
+                        <li>Reviews </li>
+                        <li>Stories</li>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row finish">
+                <div class="col-lg-6">
+                    <div class="link">
+                        <span>© Agon Official 2022 <br>Service</span>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Cookies</a>
+                        <a href="">Terms of</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.carousel.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet"
+    href="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.theme.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- spinner -->
+  <div id="loading">
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+  </div>
+  <!-- Nav Bar -->
+  <header class="start" id="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light startNav">
+        <a class="navbar-brand" href="#"><img src="./IMG/logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>           
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="market">
+          <a href="#">
+            <i class="fa-solid fa-shop" id="shop"></i>
+          </a>
+          
+          <div class="dropdown" id="marketShop">
+           
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- end of header (nav bar) -->
+
+  <div class="sideBar clearfix">
+    <div class="color-box">
+      <h5>choose your color</h5>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+    </div>
+    <i class="fa fa-cog" id="sidebarToggle"></i>
+  </div>
+
+  <!-- first section smart watch & animation -->
+
+  <section class="smartWatch">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-12">
+          <div class="text">
+            <h5>Exclusive Smart Watch</h5>
+            <h1>Let go of the challenge See yourself better</h1>
+            <p>Real-time display of data such as exercise duration, mileage, heart rate, etc</p>
+          </div>
+          <div class="items">
+            <input class="inPut" type="email" placeholder="  Enter your email...">
+            <button class="btn">Join Pre-Order <i class="fa-solid fa-right-long"></i></button>
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-0 collection">
+          <div class="photos">
+            <div class="photo">
+              <div class="test"></div>
+              <img src="./IMG/banner.png" alt="">
+              <div class="tests"></div>
+            </div>
+            <div class="image">
+              <img src="./IMG/card.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 cards -->
+
+  <section class="souq">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card cards">
+            <img src="./IMG/sp1.png" alt="...">
+            <div class="card-body">
+              <h3>Bass ultra x-203. Head phone</h3>
+              <span>$29.2</span>
+              <del>$32.8</del>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card cards">
+            <img src="./IMG/sp2.png" alt="...">
+            <div class="card-body">
+              <h3>Boxie by Dro C 3450. Active Noise</h3>
+              <span>$35.6</span>
+              <del>$36.4</del>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card cards">
+            <img src="./IMG/sp3.png" alt="...">
+            <div class="card-body">
+              <h3>Sony DSC H300 - 20.1 Megapixel</h3>
+              <span>$17.3</span>
+              <del>$18.5</del>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products For Pre-Order -->
+
+  <section class="featured">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-9">
+          <div class="text">
+            <h2>Featured Products For Pre-Order</h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-3">
+          <div class="iconSlide">
+            <li><i class="fa-solid fa-angle-left"></i></li>
+            <li><i class="fa-solid fa-angle-right"></i></li>
+          </div>
+        </div>
+      </div>
+
+      <div class="row imgScroll" id="bodyCard">
+        
+      </div>    
+    </div>
+  </section>
+
+  
+
+  <!-- Explore by Categories -->
+  <section class="explore">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text">
+            <h2>Explore by Categories</h2>
+            <p>We provide many categories, choose a category according to<br>your expertise to make it easier to find a
+              job.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="parent">
+            <div class="popular">
+              <h3>Popular Categories</h3>
+            </div>
+            <div class="computer">
+              <h5>Computer - Laptop</h5>
+              <span>6</span>
+            </div>
+            <hr>
+            <div class="computer">
+              <h5>Smart phone & Tablets</h5>
+              <span>12</span>
+            </div>
+            <hr>
+            <div class="computer">
+              <h5>Fashion & Accessories</h5>
+              <span>14</span>
+            </div>
+            <hr>
+            <div class="computer">
+              <h5>Health & Beauty</h5>
+              <span>8</span>
+            </div>
+            <div class="clr"></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="designer">
+            <i class="fa-solid fa-images"></i>
+            <h3>Computer for Designer, Art</h3>
+          </div>
+          <div class="designer">
+            <i class="fa-solid fa-laptop"></i>
+            <h3>Laptop for office, students</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="designer">
+            <i class="fa-solid fa-person-biking"></i>
+            <h3>Sport, Home, Outdoor</h3>
+          </div>
+          <div class="designer">
+            <i class="fa-solid fa-user"></i>
+            <h3>Software, card, book</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row all">
+        <div class="designer cate">
+          <i class="fa-brands fa-pagelines"></i>
+          <h3>See All Categories</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cross-border ordering has never been easier -->
+
+  <section class="borders">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-12">
+          <div class="text">
+            <span>How It Work ?</span>
+            <h2>Cross-border ordering has<br>never been easier</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row cross">
+        <div class="col-lg-3 col-sm-12">
+          <div class="card college arrows">
+            <img src="./IMG/icon-start-plan.svg" alt="">
+            <div class="card-body text2">
+              <h5>Start Plan</h5>
+              <p>Choose any of<br>our packages</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 uparrow">
+          <div class="card college connect">
+            <img src="./IMG/icon-connect.svg" alt="">
+            <div class="card-body text2">
+              <h5>Connect</h5>
+              <p>Receive concepts<br>In 24 hours</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <div class="card college">
+            <img src="./IMG/icon-match.svg" alt="">
+            <div class="card-body text2">
+              <h5>Match</h5>
+              <p>Development<br>Stage</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cross crew">
+        <div class="col-lg-3 col-sm-12">
+          <div class="card college">
+            <img src="./IMG/icon-complete.svg" alt="">
+            <div class="card-body text2">
+              <h5>Complete</h5>
+              <p>After-release<br>Support</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <div class="card college review">
+            <img src="./IMG/icon-review.svg" alt="">
+            <div class="card-body text2">
+              <h5>Review</h5>
+              <p>Project launch<br>and checkout</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- You can order on App and play store -->
+  <section class="bring">
+    <div class="container app">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="parent">
+            <div class="text">
+              <h2>You can order on<br>App and play store</h2>
+              <p>Bring the world of shopping to your phone</p>
+            </div>
+            <div class="photo">
+              <img src="./IMG/apple-button.svg" alt="">
+              <img src="./IMG/google-play.svg" alt="" class="image">
+            </div>
+            <div class="check">
+              <p><input type="checkbox" class="box">Order direct from the app</p>
+              <p class="order"><input type="checkbox" class="box">Save and searches</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trusted by the world’s leading companies -->
+
+  <section class="trust">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text">
+            <h3>Trusted by the world’s leading companies</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul>
+            <li><img src="./IMG/agon.svg" alt=""></li>
+            <li><img src="./IMG/monst.svg" alt=""></li>
+            <li><img src="./IMG/figwire.svg" alt=""></li>
+            <li><img src="./IMG/evara.svg" alt=""></li>
+            <li><img src="./IMG/frox.svg" alt=""></li>
+          </ul>
+          <ul>
+            <li><img src="./IMG/alithemes.svg" alt=""></li>
+            <li><img src="./IMG/nestmask.svg" alt=""></li>
+            <li><img src="./IMG/theflow.svg" alt=""></li>
+            <li><img src="./IMG/stacker.svg" alt=""></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="end">
+    <div class="container">
+      <div class="row agon">
+        <div class="col-lg-7">
+          <img src="./IMG/logo.svg" alt="">
+        </div>
+        <div class="col-lg-5">
+          <div class="text">
+            <p>Ready to get started?</p>
+            <button class="btns">Create an Acount</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row allrow">
+        <div class="col-lg-3">
+          <div class="doc">
+            <h5>Contact</h5>
+            <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+            <p>(239) 555-0108 contact@agon.com</p>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="doc">
+            <h5>About Us</h5>
+            <li>Mission & Vision</li>
+            <li>Our Team</li>
+            <li>Careers</li>
+            <li>Press & Media</li>
+            <li>Advertising</li>
+            <li>Testimonial</li>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="doc">
+            <h5>Discover</h5>
+            <li>Our Blog</li>
+            <li>Plans Pricing</li>
+            <li>Knowlage Base</li>
+            <li>Cookie Policy</li>
+            <li>Office Center</li>
+            <li>News Event</li>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="doc">
+            <h5>Support</h5>
+            <li>FAQs</li>
+            <li>Editor Help</li>
+            <li>Community</li>
+            <li>Live Chating</li>
+            <li>Contact Us</li>
+            <li>Support Center</li>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="doc">
+            <h5>Useful Links</h5>
+            <li>Request an offer</li>
+            <li>How it works</li>
+            <li>Pricing</li>
+            <li>Reviews </li>
+            <li>Stories</li>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row finish">
+        <div class="col-lg-6">
+          <div class="link">
+            <span>© Agon Official 2022 <br>Service</span>
+            <a href="">Privacy Policy</a>
+            <a href="">Cookies</a>
+            <a href="">Terms of</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.carousel.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

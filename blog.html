@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet"
+        href="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div id="loading">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!-- Nav Bar -->
+    <header class="start" id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light startNav">
+                <a class="navbar-brand" href="#"><img src="./IMG/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- end of header (nav bar) -->
+
+    <div class="sideBar clearfix">
+        <div class="color-box">
+            <h5>choose your color</h5>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+            <div class="color-item"></div>
+        </div>
+
+        <i class="fa fa-cog" id="sidebarToggle"></i>
+    </div>
+
+    <!--  -->
+
+    <div id="lightbox-container">
+        <div id="lightboxitem">
+            <i class="fa-solid fa-circle-arrow-left left" id="prevBtn"></i>
+            <i class="fa-solid fa-xmark-circle close" id="closeBtn"></i>
+            <i class="fa-solid fa-circle-arrow-right right" id="nextBtn"></i>
+        </div>
+    </div>
+
+    <!-- Our Blog -->
+
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text">
+                        <h1>Our Blog</h1>
+                        <p>From year to year we strive to invent the most innovative technology<br>that is used by both
+                            small enterprises and space enterprises.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row profile">
+                <div class="layer"></div>
+                <div class="col-lg-12 parent">
+
+                    <div class="photo">
+                        <img src="./IMG/img-news-2.png" alt="">
+                    </div>
+
+                    <div class="marketing">
+                        <div class="text1">
+                            <span>Marketing Event</span>
+                            <h4>We can blend colors<br>multiple ways, the most<br>common</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur<br>adipiscing elit interdum ullamcorper
+                                sed<br>pharetra senectus donec nunc. Consequat </p>
+                        </div>
+                        <div class="media">
+                            <img src="./IMG/user-3.png" alt="">
+                            <div class="text2">
+                                <h5>Jenny Wilson</h5>
+                                <p>August 25, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News -->
+
+    <section class="learn">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="document">
+                        <h2>Latest News</h2>
+                        <p>From Our Blog And Event Fanpage</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row marketing">
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">COMPANY</span>
+                            <h5>We can blend colors multiple ways, the most common</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-1.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">MARKETING EVENT</span>
+                            <h5>How To Blow Through Capital At An Incredible Rate</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-2.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">CUSTOMER SERVICES</span>
+                            <h5>Design Studios That Everyone Should Know About?</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-3.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row marketing">
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">COMPANY</span>
+                            <h5>We can blend colors multiple ways, the most common</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-4.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">MARKETING EVENT</span>
+                            <h5>How To Blow Through Capital At An Incredible Rate</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-5.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">CUSTOMER SERVICES</span>
+                            <h5>Design Studios That Everyone Should Know About?</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-6.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row marketing">
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">COMPANY</span>
+                            <h5>We can blend colors multiple ways, the most common</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-7.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">MARKETING EVENT</span>
+                            <h5>How To Blow Through Capital At An Incredible Rate</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-8.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="all">
+                        <div class="mail">
+                            <span class="tag-dot">CUSTOMER SERVICES</span>
+                            <h5>Design Studios That Everyone Should Know About?</h5>
+                        </div>
+                        <div class="overlay">
+                            <div class="layer"></div>
+                            <img src="./IMG/img-news-9.png" alt="" class="imgs-item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="btnns">
+                        <button>Load more posts <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe our newsletter -->
+
+    <section class="subscribe">
+        <div class="container all">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text">
+                        <span>NEWSLETTER</span>
+                        <h3>Subscribe our<br>newsletter</h3>
+                        <p>By clicking the button, you are agreeing with our</p>
+                        <a href="#">Term & Conditions</a>
+                        <input type="email" placeholder="Enter your mail">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="photo">
+                        <img src="./IMG/img-newsletter.png" alt="">
+                        <img src="./IMG/card.png" alt="" class="cards">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <footer class="end">
+        <div class="container">
+            <div class="row agon">
+                <div class="col-lg-7">
+                    <img src="./IMG/logo.svg" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <div class="text">
+                        <p>Ready to get started?</p>
+                        <button class="btns">Create an Acount</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row allrow">
+                <div class="col-lg-3">
+                    <div class="doc">
+                        <h5>Contact</h5>
+                        <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+                        <p>(239) 555-0108 contact@agon.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="doc">
+                        <h5>About Us</h5>
+                        <li>Mission & Vision</li>
+                        <li>Our Team</li>
+                        <li>Careers</li>
+                        <li>Press & Media</li>
+                        <li>Advertising</li>
+                        <li>Testimonial</li>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="doc">
+                        <h5>Discover</h5>
+                        <li>Our Blog</li>
+                        <li>Plans Pricing</li>
+                        <li>Knowlage Base</li>
+                        <li>Cookie Policy</li>
+                        <li>Office Center</li>
+                        <li>News Event</li>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="doc">
+                        <h5>Support</h5>
+                        <li>FAQs</li>
+                        <li>Editor Help</li>
+                        <li>Community</li>
+                        <li>Live Chating</li>
+                        <li>Contact Us</li>
+                        <li>Support Center</li>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="doc">
+                        <h5>Useful Links</h5>
+                        <li>Request an offer</li>
+                        <li>How it works</li>
+                        <li>Pricing</li>
+                        <li>Reviews </li>
+                        <li>Stories</li>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row finish">
+                <div class="col-lg-6">
+                    <div class="link">
+                        <span>© Agon Official 2022 <br>Service</span>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Cookies</a>
+                        <a href="">Terms of</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/owl-carousel/owl.carousel.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
